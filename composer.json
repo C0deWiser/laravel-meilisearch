@@ -3,6 +3,9 @@
     "description": "Laravel helper for Meilisearch Scout driver",
     "type": "library",
     "license": "MIT",
+    "suggest": {
+        "codewiser/laravel-scout": "Helps building multidriver Scout searches"
+    },
     "autoload": {
         "psr-4": {
             "Codewiser\\Meilisearch\\": "src/"
